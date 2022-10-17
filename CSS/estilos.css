@@ -1,0 +1,69 @@
+/*Selector universal*/
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+#Contenedor{
+    width: 900px;
+    height: 1000px;
+    background-color: #f1ecea;
+}
+
+#Encabezado{
+    height: 15%;
+    background-color: #3a251c;
+}
+
+#Menu{
+    height: 5%;
+    width: 4%;
+    background-color: #b46424;
+    color: white;
+}
+
+#Seccion1{
+    height: 64%;
+    width: 63%;
+    background-color: #362f2f;
+    float: left;
+}
+
+#Seccion2{
+    height: 35%;
+    width: 34%;
+    background-color: #b58c7c;
+    float: right;
+}
+
+#Pie{
+    height: 10%;
+    width: 9%;
+    background-color: #3a251c;
+}
+
+/*Selector por clase*/
+.encabezado{
+    text-align: center;
+    color: white;
+}
+
+/*Selector de etiqueta*/
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
